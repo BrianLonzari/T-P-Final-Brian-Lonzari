@@ -1,0 +1,142 @@
+@font-face {
+    font-family: fuente;
+    src: url(/fonts/ProtestGuerrilla-Regular.ttf);
+}
+
+@font-face {
+    font-family: fuentee;
+    src: url(/fonts/ProtestRiot-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    cursor :url(img/pngwing.com.png), auto;
+    scroll-behavior: smooth;
+}
+
+/* nav */
+nav{
+color: black;
+}
+
+.logo{
+    float: left;
+}
+.logo span{
+    color: #0471a6;
+}
+
+.imgNav{
+    width: 50px;
+    height: 50px;
+}
+/* fin nav */
+main {
+    height:100%;
+    width: 100%;
+    background-color: #fff;
+    background-image: url(img/backgrounfutbol.jpg);
+    text-align: center;
+    align-items: center;
+}
+/* equipos */
+.divPrincipal {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border: 10px;
+    border-color: #000;
+    border-width: 5px;
+    border-style: dashed;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+
+}
+
+.divPrincipal:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 5px #fff;
+
+}
+.divPrincipal h2{
+    font-size: 60px;
+}
+
+
+.tituloPrincipal{
+    color: #fff;
+    font-size:  70PX;
+    padding: 20px;
+}
+/* fin equipos */
+/* estadios */
+.cajaEstadios{
+    padding: 20px;
+    margin-top: 10px;
+}
+.cardEstaios{
+    padding: 20px;
+
+}
+
+
+/* fin estadios */
+/* footer */
+footer{
+    background-color: #fff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+footer p{
+    margin-bottom: 20px;
+}
+
+footer .redes a{
+    text-decoration: none;
+}
+
+footer .redes i{
+    color: black;
+    font-size: 50px;
+    letter-spacing: 30px;
+}
+
+p{
+    color: black;
+}
+/* fin footer */
+/* boton subir */
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: #0471a6;
+    color: #fff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px #fff;
+}
+/* fin boton subir */
+
+
+h2{
+    font-family: fuente;
+    font-size: 50px;
+    color: #000;
+}
+
